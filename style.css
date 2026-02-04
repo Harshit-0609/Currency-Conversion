@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+.outerBox{
+    border: 2px solid black;
+    height: 50vh;
+    width: 48vh;
+    background-color: white;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#amtText{
+    margin-left: 8px;
+}
+.amtTake{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.amtTake input{
+    height: 30px;
+    border-radius: 1.5rem;
+    padding-left: 8px;
+    width: 250px;
+    
+}
+.from-div img{
+    display: block;
+}
+.from-div select{
+    border-radius: 24px;
+}
+.to-div select{
+    border-radius: 24px;
+}
+.to-div img{
+    display: block;
+}
+.cntryConvert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.from-div{
+    display: block;
+    
+}
+.amtConverted{
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+.amtConverted input{
+    height: 30px;
+    border-radius: 1.5rem;
+    padding-left: 8px;
+    width: 250px;
+    
+}
+#amtConvertedText{
+    margin-left: 8px;
+}
+#convertBtn{
+    margin-left: 140px;
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+}
+button{
+    border-radius: 10px;
+}
